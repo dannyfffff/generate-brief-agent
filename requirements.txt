@@ -1,9 +1,19 @@
-langgraph
-langchain-core
-langchain-deepseek
-langchain-tavily
+# Python agent framework
+langgraph==0.2.39
+
+# LangChain core & community（版本必须对齐）
+langchain-core==0.2.38
+langchain-community==0.2.16
+
+# LLM provider
+langchain-deepseek==0.1.1
+
+# Search
+tavily-python==0.3.3
+
+# Utilities
 python-dotenv
 langsmith
-pydantic
-tavily-python
-langchain-community
+
+# Pydantic（必须锁）
+pydantic>=2.7,<2.9
