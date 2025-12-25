@@ -1,17 +1,6 @@
-# --- LangGraph / LangChain (stable on Python 3.11) ---
-langgraph==0.2.39
+streamlit
+python-dotenv
+pydantic>=2.7,<2.9
+tavily-python==0.3.3
 langchain-core==0.2.38
 langchain-community==0.2.16
-
-# --- LLM provider ---
-langchain-deepseek==0.1.1
-
-# --- Search ---
-tavily-python==0.3.3
-
-# --- Utilities ---
-python-dotenv
-langsmith
-
-# --- Critical: lock pydantic ---
-pydantic>=2.7,<2.9
