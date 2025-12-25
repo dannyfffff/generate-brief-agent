@@ -5,3 +5,5 @@ langchain-tavily
 python-dotenv
 langsmith
 pydantic
+tavily-python
+langchain-community
