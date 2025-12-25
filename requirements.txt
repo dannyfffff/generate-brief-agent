@@ -8,3 +8,4 @@ pydantic
 tavily-python
 langchain-community
 streamlit
+python-docx
