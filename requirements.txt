@@ -1,19 +1,17 @@
-# Python agent framework
+# --- LangGraph / LangChain (stable on Python 3.11) ---
 langgraph==0.2.39
-
-# LangChain core & community（版本必须对齐）
 langchain-core==0.2.38
 langchain-community==0.2.16
 
-# LLM provider
+# --- LLM provider ---
 langchain-deepseek==0.1.1
 
-# Search
+# --- Search ---
 tavily-python==0.3.3
 
-# Utilities
+# --- Utilities ---
 python-dotenv
 langsmith
 
-# Pydantic（必须锁）
+# --- Critical: lock pydantic ---
 pydantic>=2.7,<2.9
